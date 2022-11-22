@@ -25,7 +25,7 @@ h4,
 h5,
 h6,
 p {
-  line-height: 0.8;
+	line-height: 0.8;
   margin: 0;
 }
 /* Common CSS End */
@@ -83,6 +83,155 @@ p {
 /* Navbar Section End */
 
 /* Banner Section Start */
+
+#banner {
+	background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)), url(../images/banner-background.jpg) no-repeat center / cover;
+	padding: 150px 0;
+}
+
+.banner-main h3 {
+	padding: 30px 280px 20px 0;
+	font-weight: 300;
+	color: #ffffff;
+	line-height: 40px;
+	font-size: 36px;
+	font-family: 'Raleway';
+}
+
+hr {
+	background-color: #ffffff;
+	width: 100px;
+	height: 3px;
+}
+
+.banner-main p {
+	color: #707175;
+	font-family: 'Raleway';
+	line-height: 24px;
+	padding: 20px 200px 30px 0;
+}
+
+
+.banner-btn a {
+	padding: 10px 20px;
+	border: 1px solid #ffffff;
+	background-color: transparent;
+	position: relative;
+}
+
+.banner-btn a {
+	color: #e7e7e7;
+	font-weight: 600;
+	z-index: 9;
+	transition: .5s;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+	-ms-transition: .5s;
+	-o-transition: .5s;
+}
+
+.banner-btn a:hover {
+	color: #000000;
+}
+
+.banner-btn a::after {
+	position: absolute;
+	content: "";
+	height: 100%;
+	width: 0;
+	top: 0;
+	left: 0;
+	background-color: #e7e7e7;
+	transition: .5s;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+	-ms-transition: .5s;
+	-o-transition: .5s;
+	z-index: -1;
+}
+
+.banner-btn a:hover::after {
+	width: 100%;
+}
+
+.banner-formTop {
+	text-align: center;
+}
+
+.banner-formTop h4 {
+	text-align: center;
+	font-size: 18px;
+	font-weight: 500;
+	text-align: center;
+	color: #333333;
+	background-color: #f5f5f5;
+	padding: 25px 0;
+}
+
+.banner-formTop h4 span {
+	color: #ff8b38;
+}
+
+.banner-second {
+	position: relative;
+}
+
+.banner-formMiddle {
+	position: absolute;
+	top: 16.7%;
+	left: 12px;
+	background-color: #ffffff;
+	padding: 20px 0;
+	width: 94.6%;
+	height: 250px;
+}
+
+.banner-formMiddle h4 {
+	color: #adadad;
+	font-weight: 300;
+	font-size: 16px;
+	margin: 35px 60px;
+}
+
+.banner-formMiddle .line1 {
+	position: absolute;
+	height: 1px;
+	width: 80%;
+	left: 10%;
+	top: 33%;
+	background-color: #d6d6d6;
+}
+
+.banner-formMiddle .line2 {
+	position: absolute;
+	height: 1px;
+	width: 80%;
+	left: 10%;
+	top: 55%;
+	background-color: #d6d6d6;
+}
+
+.banner-formMiddle .line3 {
+	position: absolute;
+	height: 1px;
+	width: 80%;
+	left: 10%;
+	top: 77%;
+	background-color: #d6d6d6;
+}
+
+.banner-formLast a{
+	position: absolute;
+	top: 80.3%;
+	left: 2.8%;
+	background-color: #ff9d51;
+	padding: 20px 162px;
+  font-family: "montserrat", sans-serif;
+}
+
+.banner-formLast a {
+	color: #ffffff;
+}
 /* Banner Section End */
 
 /* Social Sectiom Start */
