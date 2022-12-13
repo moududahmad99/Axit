@@ -235,46 +235,6 @@ hr {
 /* Banner Section End */
 
 /* Social Sectiom Start */
-#social {
-	padding: 30px 0;
-	border-bottom: 1px solid rgba(158, 158, 158, 0.747);
-}
-.social-desc h4 {
-	font-size: 22px;
-	font-weight: 600;
-	color: #333333;
-	line-height: 40px;
-	font-family:'Open Sans', sans-serif;;
-
-}
-
-.social-desc p {
-	color: #707175;
-	padding-right: 40px;
-	line-height: 24px;
-	font-family: 'Roboto';
-}
-
-.social-icon ul{
-	display: flex;
-	flex-wrap: wrap;
-}
-
-.social-icon ul li a {
-	color: #cccccc;
-	font-size: 50px;
-	margin: 0 22px;
-	transition: .5s;
-	-webkit-transition: .5s;
-	-moz-transition: .5s;
-	-ms-transition: .5s;
-	-o-transition: .5s;
-}
-
-.social-icon ul li a:hover {
-	color: #757575;
-}
-
 /* Social Sectiom End */
 
 /* Tabs Section Start */
