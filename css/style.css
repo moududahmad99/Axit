@@ -105,7 +105,7 @@ hr {
 }
 
 .banner-main p {
-	color: #707175;
+	color: #999999;
 	font-family: 'Raleway';
 	line-height: 24px;
 	padding: 20px 200px 30px 0;
@@ -235,6 +235,35 @@ hr {
 /* Banner Section End */
 
 /* Social Sectiom Start */
+#social {
+	margin: 50px 0;
+}
+.social-desc h4 {
+	font-size: 22px;
+	font-weight: 600;
+	color: #333333;
+	line-height: 40px;
+	font-family: 'open sans';
+}
+
+.social-desc p {
+	color: #707175;
+	padding-right: 40px;
+	line-height: 24px;
+	font-family: 'Roboto';
+}
+
+.social-icon ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.social-icon ul li a {
+	color: #cccccc;
+	font-size: 50px;
+	margin: 0 22px;
+}
+
 /* Social Sectiom End */
 
 /* Tabs Section Start */
