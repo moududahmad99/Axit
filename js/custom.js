@@ -1,4 +1,4 @@
 $(function () {
-    // $('#colorful').colorfulTab();
+    $('#colorful').colorfulTab();
     // $('.Grid').mixitup();
 });
