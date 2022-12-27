@@ -353,6 +353,79 @@ hr {
 /* Tabs Section End */
 
 /* SubList Section Start */
+#sublist {
+	margin: 100px 0;
+}
+
+.sublist-wrapper h3 {
+	font-family: 'Open Sans';
+	line-height: 36px;
+	font-size: 24px;
+	font-weight: bold;
+	position: relative;
+}
+
+.sublist-wrapper h3:after {
+	content: '';
+	position: absolute;
+	bottom: -10px;
+	left: 0;
+	width: 60px;
+	height: 2px;
+	background: #ff8b38;
+}
+
+.sublist-wrapper p {
+	margin-top: 20px;
+	line-height: 22px;
+	color: #5f5f5f;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.sublist-wrapInner {
+	display: flex;
+	justify-content: space-between;
+}
+
+.sublist-wrapInner a {
+	line-height: 45px;
+	position: relative;
+	color: #ff8b38;
+	font-size: 20px;
+	/* margin-right: 30px; */
+}
+
+.sublist-wrapInner {
+	margin: 40px 0;
+}
+
+
+.sublist-wrapInner a::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 50px;
+	margin-left: -12px;
+	width: 50px;
+	border: 2px solid #ff8b38;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+
+.wrapInner-inner {
+	margin-left: 30px;
+}
+
+.wrapInner-inner h4 {
+	font-size: 18px;
+	font-family: 'Open Sans';
+}
+
 /* SubList Section End */
 
 /* Standard Section Start */
