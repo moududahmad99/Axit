@@ -393,7 +393,6 @@ hr {
 	position: relative;
 	color: #ff8b38;
 	font-size: 20px;
-	/* margin-right: 30px; */
 }
 
 .sublist-wrapInner {
@@ -429,6 +428,41 @@ hr {
 /* SubList Section End */
 
 /* Standard Section Start */
+#standard {
+	background: #f5f5f5;
+	padding: 100px 0;
+}
+
+.standard-inner h3 {
+	font-family: 'Open Sans';
+	line-height: 36px;
+	font-size: 24px;
+	font-weight: bold;
+	position: relative;
+}
+
+.standard-inner h3:after {
+	content: '';
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+	width: 60px;
+	height: 2px;
+	background: #ff8b38;
+}
+
+.standard-inner p {
+	margin-top: 40px;
+	padding-right: 65px;
+	line-height: 22px;
+	color: #5f5f5f;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.standard-inner p:last-child {
+	margin-top: 20px;
+}
 /* Standard Section End */
 
 /* Awesome Section Start */
