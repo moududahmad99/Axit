@@ -633,10 +633,99 @@ hr {
   text-transform: uppercase;
   font-family: "Open Sans";
 }
-
 /* Pricing Section End */
 
 /* Review Section Start */
+#review {
+  margin: 100px 0;
+}
+
+.review-title h3 {
+  font-size: 35px;
+  font-family: "Raleway";
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #212212;
+  position: relative;
+}
+
+.review-title h3::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 80px;
+  background-color: #ff8b38;
+  bottom: -28px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.review-title p {
+  margin-top: 50px;
+  color: #868686;
+  font-size: 14px;
+}
+
+.review-card {
+  margin: 60px 30px 0 30px;
+}
+
+.review-card p {
+  color: #7c7c7c;
+  padding: 15px;
+  background-color: #ececec;
+  line-height: 25px;
+  padding-right: 40px;
+  font-family: 'Open Sans';
+  position: relative;
+  font-size: 14px;
+}
+
+.review-card p::after {
+  content: '';
+  position: absolute;
+  left: 40px;
+  bottom: -15px;
+  height: 30px;
+  width: 30px;
+  background-color: #ececec;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  z-index: -1;
+}
+
+.review-inner {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  margin-left: 24px;
+}
+
+.review-inner .review-innerDesc {
+  margin-left: 20px;
+}
+
+.review-innerDesc h3 {
+  font-size: 20px;
+  color: #333333;
+  font-weight: 700;
+  font-family: 'Open Sans';
+}
+
+.review-innerDesc h6 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #5c5c5c;
+  margin-top: 10px;
+}
+
 /* Review Section End */
 
 /* Download Section Start */
