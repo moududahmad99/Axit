@@ -680,13 +680,13 @@ hr {
   background-color: #ececec;
   line-height: 25px;
   padding-right: 40px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   position: relative;
   font-size: 14px;
 }
 
 .review-card p::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 40px;
   bottom: -15px;
@@ -716,7 +716,7 @@ hr {
   font-size: 20px;
   color: #333333;
   font-weight: 700;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
 }
 
 .review-innerDesc h6 {
@@ -735,7 +735,7 @@ hr {
 }
 
 .download-inner h3 {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   color: #ffffff;
   margin: 80px 0;
   font-weight: 400;
@@ -761,7 +761,7 @@ hr {
   margin-top: 0;
   font-size: 14px;
   color: #ffffff;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   text-transform: capitalize;
 }
 
@@ -769,14 +769,14 @@ hr {
   padding: 10px 30px;
   border: 2px solid #ffffff;
   color: #ffffff;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   text-transform: uppercase;
   margin-top: 40px;
-  transition: .5s;
-  -webkit-transition: .5s;
-  -moz-transition: .5s;
-  -ms-transition: .5s;
-  -o-transition: .5s;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
 
 .download-inner a:hover {
@@ -831,11 +831,11 @@ hr {
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
-  transition: .5s;
-  -webkit-transition: .5s;
-  -moz-transition: .5s;
-  -ms-transition: .5s;
-  -o-transition: .5s;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -849,4 +849,31 @@ hr {
 /* Contact Section End */
 
 /* Footer Section Start */
+footer {
+  background: #000000;
+  padding: 20px 0;
+  padding-top: 40px;
+}
+
+.footer-inner a {
+  font-size: 24px;
+  color: #cccccc;
+  margin: 0 20px;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+}
+
+.footer-inner a:hover {
+  color: #5c5c5c;
+}
+
+.footer-text p {
+  color: #cccccc;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 10px;  
+}
 /* Footer Section End */
