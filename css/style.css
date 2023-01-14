@@ -787,6 +787,65 @@ hr {
 /* Download Section End */
 
 /* Contact Section Start */
+#contact {
+  margin: 100px 0;
+}
+
+.contact-title h3 {
+  font-size: 40px;
+  font-family: "Raleway";
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #212212;
+  position: relative;
+}
+
+.contact-title h3::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 80px;
+  background-color: #ff8b38;
+  bottom: -28px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.contact-title p {
+  margin-top: 50px;
+  color: #868686;
+  font-size: 14px;
+}
+
+#contact form {
+  margin: 40px 80px;
+}
+
+#contact a {
+  padding: 20px 40px;
+  background: #ff9d51;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+#contact a:hover {
+  background: #333333;
+}
 /* Contact Section End */
 
 /* Footer Section Start */
